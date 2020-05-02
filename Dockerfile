@@ -9,7 +9,7 @@ RUN mkdir /src
 RUN set -x && \
  apk add --no-cache --update bash curl wget make \
  build-base automake autoconf readline readline-dev \
- gettext libcrypto1.0 libressl libressl-dev libevent \
+ gettext libressl libressl-dev libevent \
  libevent-dev linux-headers jq \
  --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
  --repository http://dl-cdn.alpinelinux.org/alpine/edge/main
