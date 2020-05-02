@@ -50,4 +50,4 @@ EXPOSE 20000-65535/udp
 ADD coturn.sh /coturn.sh
 RUN chmod u+rx /coturn.sh
 
-CMD /coturn.sh
+ENTRYPOINT [ "/coturn.sh" ] 
