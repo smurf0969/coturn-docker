@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 # visit https://github.com/coturn/coturn/releases to choose the release you want
-ENV COTURN_VERSION 4.5.1.2
+ENV COTURN_VERSION 4.5.1.0
 
 
 RUN mkdir /src
